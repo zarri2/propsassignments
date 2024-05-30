@@ -1,6 +1,8 @@
 import Person1 from './assets/components/ProopsComponent'
 import Person3 from './assets/components/Proops2components'
+import ChildProp from './assets/components/childrenprop.component'
 import Person2 from './assets/components/Proops3component'
+
 import './App.css'
 
 
@@ -14,12 +16,7 @@ function App() {
     
   }
  
-  let obj1 = {
-    student1 : "Khan1",
-    student2 : "Kamran",
-    student3 : "Ammad"
-    
-  }
+  
 
   return (
     <>
@@ -29,10 +26,17 @@ function App() {
       />
       <Person1 std= {student}/>
       
-      <Person3{...obj1}/>
+      
+      
+      <Person3/>
+      <ChildProp>
+        <p>Hello </p>
+        <p>Hello </p>
+        <p>Hello </p>
+      </ChildProp>
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;

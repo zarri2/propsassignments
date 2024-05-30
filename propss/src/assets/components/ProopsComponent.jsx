@@ -1,7 +1,7 @@
 function Person1 (props) {
     return (
         <>
-        <h1>Person Properties 2st Method</h1>
+        <h1>Person Properties 2nd Method props method</h1>
         <p>Gender : {props.std.gender}</p>
         <p>Height : {props.std.age}</p>
         <p>Name : {props.std.name} </p>
