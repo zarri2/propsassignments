@@ -1,14 +1,14 @@
-function Car () {
+function Person1 (props) {
     return (
         <>
         <h1>Person Properties</h1>
-        <p>Gender : {personalbar.gender}</p>
-        <p>Height : {person.height}</p>
-        <p>Name : {person.name} </p>
-        <p>Age : {person.age}</p>
-        <p>Skill : {person.skill}</p>
+        <p>Gender : {props.std.gender}</p>
+        <p>Height : {props.std.age}</p>
+        <p>Name : {props.std.name} </p>
+        <p>Age : {props.std.age}</p>
+        <p>Skill : {props.std.skill}</p>
 
         </>
     )
 }
-export default Car;
+export default Person1;
